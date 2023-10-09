@@ -50,3 +50,5 @@ fabric.properties
 /.vs
 /x64/Debug
 /Сумма_цифр/x64/Debug
+/Debug/
+/.idea/
