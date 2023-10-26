@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Операции целения", "Операции целения", "{8CD87479-6889-4DA7-BEBF-CEF3252B29F7}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Операции целения", "2. Операции целения", "{8CD87479-6889-4DA7-BEBF-CEF3252B29F7}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Задачи", "Задачи", "{B9C7C3A5-F1B5-4937-94E9-28F2F40D5011}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Операции_деления", "Операции_деления\Операции_деления.vcxproj", "{6877C6F8-537A-4044-96A5-675475144A84}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Начало", "Начало", "{A59731C6-A118-4D61-83FE-9C01753768A7}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Начало", "1. Начало", "{A59731C6-A118-4D61-83FE-9C01753768A7}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Типы_данных", "Типы_данных\Типы_данных.vcxproj", "{715711AD-097C-4E5A-84FB-45B7427AE6E6}"
 EndProject
@@ -22,6 +22,10 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Сумма_цифр", "Сумма_цифр\Сумма_цифр.vcxproj", "{BB89F0AD-B437-4AA6-B5D6-3DB106BEC61E}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Секунды", "Секунды\Секунды.vcxproj", "{50ABA8DE-4A00-44A6-B839-69DDA750BFB4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Условные конструкции", "3. Условные конструкции", "{229BBC4D-B7D0-4AA5-A6D7-6D10400C01DA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Оператор_if", "Оператор_if\Оператор_if.vcxproj", "{26CC6399-0C34-4785-A904-CBC3E48CF265}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +109,18 @@ Global
 		{50ABA8DE-4A00-44A6-B839-69DDA750BFB4}.Release|x64.Build.0 = Release|x64
 		{50ABA8DE-4A00-44A6-B839-69DDA750BFB4}.Release|x86.ActiveCfg = Release|Win32
 		{50ABA8DE-4A00-44A6-B839-69DDA750BFB4}.Release|x86.Build.0 = Release|Win32
+		{26CC6399-0C34-4785-A904-CBC3E48CF265}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{26CC6399-0C34-4785-A904-CBC3E48CF265}.Debug|Any CPU.Build.0 = Debug|Win32
+		{26CC6399-0C34-4785-A904-CBC3E48CF265}.Debug|x64.ActiveCfg = Debug|x64
+		{26CC6399-0C34-4785-A904-CBC3E48CF265}.Debug|x64.Build.0 = Debug|x64
+		{26CC6399-0C34-4785-A904-CBC3E48CF265}.Debug|x86.ActiveCfg = Debug|Win32
+		{26CC6399-0C34-4785-A904-CBC3E48CF265}.Debug|x86.Build.0 = Debug|Win32
+		{26CC6399-0C34-4785-A904-CBC3E48CF265}.Release|Any CPU.ActiveCfg = Release|Win32
+		{26CC6399-0C34-4785-A904-CBC3E48CF265}.Release|Any CPU.Build.0 = Release|Win32
+		{26CC6399-0C34-4785-A904-CBC3E48CF265}.Release|x64.ActiveCfg = Release|x64
+		{26CC6399-0C34-4785-A904-CBC3E48CF265}.Release|x64.Build.0 = Release|x64
+		{26CC6399-0C34-4785-A904-CBC3E48CF265}.Release|x86.ActiveCfg = Release|Win32
+		{26CC6399-0C34-4785-A904-CBC3E48CF265}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -117,5 +133,6 @@ Global
 		{2140C104-23C9-4D5A-8B3B-CEA394E21D86} = {68C384DA-72C4-40A1-B1AF-EDE5AFF88448}
 		{BB89F0AD-B437-4AA6-B5D6-3DB106BEC61E} = {B9C7C3A5-F1B5-4937-94E9-28F2F40D5011}
 		{50ABA8DE-4A00-44A6-B839-69DDA750BFB4} = {B9C7C3A5-F1B5-4937-94E9-28F2F40D5011}
+		{26CC6399-0C34-4785-A904-CBC3E48CF265} = {229BBC4D-B7D0-4AA5-A6D7-6D10400C01DA}
 	EndGlobalSection
 EndGlobal
