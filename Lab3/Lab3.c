@@ -67,7 +67,7 @@ void SwapElements(int* arr, int size)
     int tmp = arr[0];
     arr[0] = arr[1];
     arr[1] = tmp;
-    printf("Массив после обмена местами двух первых значений:\n")
+    printf("Массив после обмена местами двух первых значений:\n");
     PrintArray(arr, size);
 }
 
@@ -101,6 +101,7 @@ double AveragePositive2(int* arr, int size)
     return (double)sum / count;
 }
 
+// Сортировка методом "Пузырька"
 void Sort(int* arr, int size)
 {
     for (int i = 0; i < size; ++i)
@@ -116,6 +117,21 @@ void Sort(int* arr, int size)
         }       
     }
 }
+// size передаётся через указатель, потому что внутри функции при удалении должен изменяться размер массива.
+void RemoveEvenElements(int* arr, int* size)
+{
+    for (int i = 0; i < *size; ++i)
+    {
+        if (arr[i] % 2 == 0)
+        {
+            for (int j = i; j < *size - 1; ++j)
+                arr[j] = arr[j + 1];
+            (*size)--;
+            // Уменьшаем i, т.к. на месте текущего элемента будет стоять следующий и его тоже надо проверить на чётность.
+            i--;
+        }
+    }
+}
 
 int main(int argc, char* argv[])
 {
@@ -129,11 +145,12 @@ int main(int argc, char* argv[])
     PrintMaxValues(array, n);
     PrintMinValue(array, n);
     SwapElements(array, n);
-    printf("Среднее арифметическое положительных элементов = %d\n", AveragePositive(array, n));
-    printf("Среднее арифметическое положительных элементов с чётным индексом = %d\n", AveragePositive2(array, n));
+    printf("Среднее арифметическое положительных элементов = %f\n", AveragePositive(array, n));
+    printf("Среднее арифметическое положительных элементов с чётным индексом = %f\n", AveragePositive2(array, n));
     Sort(array, n);
     PrintArray(array, n);
-    
+    RemoveEvenElements(array, &n);
+    PrintArray(array, n);
     return 0;
 }
 
