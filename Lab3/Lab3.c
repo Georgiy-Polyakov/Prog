@@ -154,7 +154,4 @@ int main(int argc, char* argv[])
     return 0;
 }
 
-/*
-10
-2 5 8 3 4 8 1 4 8 3
-*/
+

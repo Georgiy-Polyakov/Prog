@@ -52,3 +52,4 @@ fabric.properties
 /Сумма_цифр/x64/Debug
 /Debug/
 /.idea/
+**/Debug/**
