@@ -156,6 +156,9 @@
   <ItemGroup>
     <ClCompile Include="Типы_данных.c" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Условные конструкции.md" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

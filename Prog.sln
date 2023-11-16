@@ -31,6 +31,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Задачи", "Задач�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Координатная_плоскость", "Координатная_плоскость\Координатная_плоскость.vcxproj", "{94FEFD85-05D8-4D8C-BA0A-C6F1905DDDC4}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Циклы", "4. Циклы", "{EBB8EF2F-6431-4BDF-8999-FFD154B0DFC5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Цикл_for", "Цикл_for\Цикл_for.vcxproj", "{88AE5E8F-EC0F-4024-9DF5-A909B3F53B87}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Задачи", "Задачи", "{6137B66F-EFCB-4930-8ECE-71709EE5A7DC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -137,6 +143,18 @@ Global
 		{94FEFD85-05D8-4D8C-BA0A-C6F1905DDDC4}.Release|x64.Build.0 = Release|x64
 		{94FEFD85-05D8-4D8C-BA0A-C6F1905DDDC4}.Release|x86.ActiveCfg = Release|Win32
 		{94FEFD85-05D8-4D8C-BA0A-C6F1905DDDC4}.Release|x86.Build.0 = Release|Win32
+		{88AE5E8F-EC0F-4024-9DF5-A909B3F53B87}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{88AE5E8F-EC0F-4024-9DF5-A909B3F53B87}.Debug|Any CPU.Build.0 = Debug|Win32
+		{88AE5E8F-EC0F-4024-9DF5-A909B3F53B87}.Debug|x64.ActiveCfg = Debug|x64
+		{88AE5E8F-EC0F-4024-9DF5-A909B3F53B87}.Debug|x64.Build.0 = Debug|x64
+		{88AE5E8F-EC0F-4024-9DF5-A909B3F53B87}.Debug|x86.ActiveCfg = Debug|Win32
+		{88AE5E8F-EC0F-4024-9DF5-A909B3F53B87}.Debug|x86.Build.0 = Debug|Win32
+		{88AE5E8F-EC0F-4024-9DF5-A909B3F53B87}.Release|Any CPU.ActiveCfg = Release|Win32
+		{88AE5E8F-EC0F-4024-9DF5-A909B3F53B87}.Release|Any CPU.Build.0 = Release|Win32
+		{88AE5E8F-EC0F-4024-9DF5-A909B3F53B87}.Release|x64.ActiveCfg = Release|x64
+		{88AE5E8F-EC0F-4024-9DF5-A909B3F53B87}.Release|x64.Build.0 = Release|x64
+		{88AE5E8F-EC0F-4024-9DF5-A909B3F53B87}.Release|x86.ActiveCfg = Release|Win32
+		{88AE5E8F-EC0F-4024-9DF5-A909B3F53B87}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -152,5 +170,7 @@ Global
 		{26CC6399-0C34-4785-A904-CBC3E48CF265} = {229BBC4D-B7D0-4AA5-A6D7-6D10400C01DA}
 		{F0E74B00-8DA7-44C6-8C59-DCBB25F25981} = {229BBC4D-B7D0-4AA5-A6D7-6D10400C01DA}
 		{94FEFD85-05D8-4D8C-BA0A-C6F1905DDDC4} = {F0E74B00-8DA7-44C6-8C59-DCBB25F25981}
+		{88AE5E8F-EC0F-4024-9DF5-A909B3F53B87} = {EBB8EF2F-6431-4BDF-8999-FFD154B0DFC5}
+		{6137B66F-EFCB-4930-8ECE-71709EE5A7DC} = {EBB8EF2F-6431-4BDF-8999-FFD154B0DFC5}
 	EndGlobalSection
 EndGlobal
